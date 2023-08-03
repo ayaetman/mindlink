@@ -1,0 +1,231 @@
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Container styles */
+    .main-container {
+      width: 100%;
+      max-width: 1440px;
+      min-height: 100vh;
+      position: relative;
+      background: white;
+      padding: 20px;
+    }
+
+    .content-container {
+      text-align: center;
+      max-width: 735px;
+      height: auto;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+
+    .text-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .title {
+      color: black;
+      font-size: 5vw;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: 6.25vw;
+      word-wrap: break-word;
+    }
+
+    .description {
+      color: black;
+      font-size: 1.8vw;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 2.2vw;
+      word-wrap: break-word;
+    }
+
+    .button-container {
+      height: 54px;
+      padding: 15px 30px;
+      background: #980101;
+      border-radius: 40px;
+      overflow: hidden;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .button {
+      color: white;
+      font-size: 1.8vw;
+      font-family: Inter;
+      font-weight: 500;
+      word-wrap: break-word;
+    }
+
+    /* Logo and Signup Button Container styles */
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-text {
+      color: black;
+      font-size: 3.5vw;
+      font-family: MuseoModerno;
+      font-weight: 700;
+      line-height: 1.25;
+      word-wrap: break-word;
+    }
+
+    .logo-text-colored {
+      color: #980101;
+    }
+
+    .signup-button-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .signup-button-text {
+      color: black;
+      font-size: 1.8vw;
+      font-family: Inter;
+      font-weight: 500;
+      word-wrap: break-word;
+    }
+
+    .signup-button {
+      padding: 15px 30px;
+      background: #980101;
+      border-radius: 40px;
+      overflow: hidden;
+      backdrop-filter: blur(20px);
+      color: white;
+      font-size: 1.8vw;
+      font-family: Inter;
+      font-weight: 500;
+      word-wrap: break-word;
+    }
+
+    /* Image styles */
+    .main-image {
+      width: 100%;
+      height: auto;
+      margin-top: 400px;
+      position: absolute;
+    }
+
+    /* Media Queries */
+    @media (max-width: 532px){
+   .text-container{
+    margin-top: -190px;
+   }
+   .main-image{
+    margin-top: 400px;
+   }
+    }
+    @media (max-width: 767px) {
+      .title {
+    font-size: 7vw;
+    line-height: 9vw;
+    margin-top: 90px;
+      }
+
+      .description {
+    font-size: 2.5vw;
+    line-height: 4vw;
+}
+      }
+
+      .button-container {
+        padding: 15px 25px;
+      }
+
+      .button {
+        font-size: 2.5vw;
+      }
+
+      .logo-text {
+        font-size: 5vw;
+      }
+
+      .signup-button-text {
+        font-size: 3.5vw;
+      }
+
+      .signup-button {
+        font-size: 3.5vw;
+        padding: 15px 25px;
+      }
+    .main-image{
+        margin-top: 500px;
+        left: 5px;
+    }
+
+    @media (max-width: 991px) {
+      .logo-container {
+        /* flex-direction: column; */
+        gap: 20px;
+        margin-top: 10px;
+      }
+
+      .logo-text {
+        font-size: 3.5vw;
+        margin-left: 15px;
+      }
+
+      .signup-button-text {
+        font-size: 2vw;
+      }
+
+      .signup-button {
+        font-size: 2vw;
+        padding: 15px 25px;
+      }
+    }
+    @media (min-width: 991px){
+.logo-text{
+    font-size: 3vw;
+    line-height: 1
+}
+.logo{
+margin-left:30px
+    }
+    .signup-button{
+    font-size: 2.5vw;
+    padding: 10px 20px;
+}   
+    .signup-button-container{
+gap: 30px;
+    }
+    .signup-button-text{
+            font-size: 3vw
+    }
+    .content-container{
+        margin-top: 50px;
+}
+.button-container{
+    padding: 30px 25px;
+}
+
+    }
