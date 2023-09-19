@@ -1,2 +1,3 @@
 # mindlink
-mindlink-page1
+mindlink-landing page
+fully Responsive
